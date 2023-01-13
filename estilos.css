@@ -1,0 +1,39 @@
+    p{
+    color:blue;
+}
+/**este es un comentario dentro de un documento css
+*/
+h1 {
+  border: 5px solid black;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 120px;
+    padding-right: 30px;
+    font-weight: bold;
+    color:rgb(165, 42, 79);
+}
+section {font-family: 'Bebas Neue', cursive;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+  #mi_parrafo {
+    color:rgb(115, 143, 40);
+    font-size: 23px;
+    border: 1px solid rgb(221, 11, 109);
+  }
+      #titulo {
+        color: cyan;
+        font-size: 100px;
+        border:5 salmon
+      }
+      .estaesmiclase{
+    font-weight: bold;
+    color: chartreuse;
+      }

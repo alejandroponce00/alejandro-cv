@@ -1,0 +1,100 @@
+
+pre {
+	font-size: 14px !important;
+	margin: 0px 10px 10px;
+	padding: 2px 15px;
+	border: none;
+	cursor: pointer;
+	overflow-x: auto;
+}
+pre:hover {
+}
+.preview input[type="text"], .preview input[type="number"] {
+	width: 90px;
+}
+.preview {
+    background-color: #FFF;
+    margin: 0 10px;
+    padding: 0 1% 25px;
+}
+
+.wrapPreviews {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px 20px;
+	background-color: #FFF;
+	border-top: 1px solid #ddd;
+	box-shadow: 0 0px 20px #333;
+}
+
+
+.preToEditorWrap {
+	display: none;
+	height: 0;
+	overflow: visible;
+	position: relative;
+}
+.noPencil .preToEditorWrap {
+	display: none !important;
+}
+a.preToEditor {
+    border: 1px solid #bbb;
+    position: absolute;
+    background: #FFF;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 17px;
+    width: 17px;
+    line-height: 17px;
+    cursor: pointer;
+    text-align: center;
+    left: -10px;
+	top: -6px;
+}
+a.preToEditor:hover {
+	background: #CE5937;
+	border: 1px solid #CE5937;
+	color: #fff;
+	font-size: 17px;
+}
+.tagExample pre:hover {
+	background-color: #fff6f6 !important;
+}
+
+blockquote {
+    background: url(quote.png) 10px 10px no-repeat transparent;
+    border: 2px solid #B2B2B2;
+    margin: 15px auto;
+    max-width: 290px;
+    font-size: 1.3em;
+    padding: 10px 10px 10px 78px;
+    line-height: 1.2em;
+}
+button {
+	margin: 10px;
+}
+.footer {
+	padding-bottom: 330px !important;
+}
+
+
+@media screen and (max-width: 1111px) { 
+	.sbs .tagExample pre {
+		clear: both;
+		float: none;
+		width: auto;
+		margin: 0 0 15px;
+		min-height: auto;
+	}
+	.sbs div.preview {
+		float: none;
+		width: auto;
+		display: inline-block;
+		margin: 0;
+		min-height: auto;
+	}
+
+
+}
